@@ -934,7 +934,7 @@ blockquote {
     visibility: hidden;
     text-align: center;
 }
-.capa figure:hover > img{
+/*.capa figure:hover > img{
     transform: scale(1.3);
 
 }
@@ -1014,10 +1014,213 @@ blockquote {
         
         line-height: 20px;
 }   
-   .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
+.container figure #contactForm{
+    position: absolute;
+    top: 0;
+    height:100%;
+    width: 100%;
+    background: rgba(11,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: visible;
+    text-align: center;
+}
+#contact .contact-alert .alert {
+    margin:0;
+}
+
+#contact .macbook-inner {
+    position:absolute;
     
+    left:163px;
+    width:845px;
+    height:532px;
+    padding:50px 30px 0;
+    transition:all 0.3s ease-out;
+    pointer-events: visible;
+}
+
+#contactForm .capa {
+    position:absolute;
+    
+    left:163px;
+    width:845px;
+    height:532px;
+    padding:50px 30px 0;
+    transition:all 0.3s ease;
+}
+
+#contact h3 {
+    text-align:left;
+    margin:0 0 20px;
+    color:#333333;
+    font-weight:bold;
+    font-size:26px;
+}
+
+#contact .form-control {
+    box-shadow:none;
+    border-radius:5px;
+    background-color:#FFFFFF;
+    border:0;
+    margin-bottom:28px;
+    height:38px;
+}
+
+#contact textarea.form-control {
+    height:140px;
+}
+
+#contact .form-control:focus {
+    background-color:#ddd;
+}
+
+#contact textarea {
+    resize:none;
+}
+
+#contact .contact-info {
+    background-color:#1ABC9C;
+    border-radius:5px;
+    color:#FFFFFF;
+    padding:0 12px;
+    text-align:left;
+}
+
+#contact .contact-info p {
+    border-bottom:2px dashed #16A085;
+    margin:0;
+    padding:12px 0;
+    font-weight:bold;
+}
+
+#contact .contact-info p:last-child {
+    border-bottom:0;
+}
+
+.contact-image {
+    width:164px;
+    padding-bottom:15px;
+}
+
+#contact .controls {
+    position:relative;
+}
+
+#contact .help-block {
+    margin: 0;
+    color: #DB4F58;
+    font-size:14px;
+    position:absolute;
+    right:0;
+    top:-22px;
+}
+
+#contact .help-block ul {
+    margin: 0;
+    list-style:none;
+}
+/*------------------------------
+    COMMENTS
+------------------------------*/
+#comments {
+    background-color:#2F4254;
+    color:#FFFFFF;
+}
+
+.comments {
+    background-color:#2F4254;
+    margin:0;
+    padding:20px 30px;
+}
+
+.comments h2 {
+    text-align:left;
+}
+
+.comment {
+    margin:25px 0 0;
+    clear:both;
+}
+
+.comments > .comment {
+    border-bottom:5px solid #34495E;
+    padding:0 0 20px;
+}
+
+.comments > .comment:last-child {
+    border-bottom:0;
+    padding:0;
+}
+
+.comment .media-object {
+    max-width:80px;
+    margin-right:20px;
+}
+
+.comment h4 {
+    font-size: 22px;
+    margin:0 0 10px;
+    color:#16A085;
+}
+
+.comment h4 small {
+    font-size: 14px;
+    color:#999999;
+    margin-left:20px;
+}
+
+.comment a {
+    color:#ED5A64;
+}
+
+.comment a i {
+    margin-right:7px;
+    color:#ED5A64;
+}
+
+.comments-form h2 {
+    text-align:left;
+    margin:30px 0 20px;
+}
+
+/*------------------------------
+    PORTFOLIO
+------------------------------*/
+#portfolio-page-content {
+    background-color:#34495E;
+    text-align:center;
+    padding-top:25px;
+    color:#FFFFFF
+}
+
+.portfolio-text  {
+    margin-top:25px;
+    text-align:justify;
+    clear:both;
+}
+.macbook-inner .form-group .control-group div{
+    position:absolute;
+    
+    left:163px;
+    width:845px;
+    height:532px;
+    padding:50px 100px 0;    
+}
+.macbook-inner button{
+cursor: pointer;
+
+}
+.macbook-inner button:hover{
+background: #DB4F58;
+
+}
+
+
+   
