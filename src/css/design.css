@@ -995,3 +995,8 @@ blockquote {
     background-color: #2F4254;
     border-radius: 50%;
 }
+.btn-reference:hover, .btn-reference.btn-active {
+    border: 1px solid #16A085;
+    border-bottom: 3px solid #16A085;
+    color: #16A085;
+}    
