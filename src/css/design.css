@@ -46,6 +46,11 @@ p {
     margin: 0 0 20px;
     font-size:16px;
     line-height:28px;
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 h2 {
@@ -1009,3 +1014,6 @@ blockquote {
         
         line-height: 20px;
 }    
+#about {
+    padding-bottom: 0;
+}
