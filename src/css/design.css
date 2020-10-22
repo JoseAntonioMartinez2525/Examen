@@ -95,7 +95,9 @@ div {
     opacity: 1;
 }
 }
-
+.brands{
+    display: inline;
+}
 .perfil img {
 -webkit-tap-highlight-color: rgba(0,0,0,0);
 font-size: 14px;
@@ -268,6 +270,11 @@ box-sizing: border-box;
 .brands > li {
     margin:0 0 8px;
 }
+.brands > li > a:hover {
+    color:#16A085;
+    border-top:3px solid #2F4254;
+}
+
 #portfolio-page-content {
     background-color:#34495E;
     text-align:center;
@@ -459,6 +466,11 @@ width: 16.66666667%;
 #separator {
     text-align: center;
     padding: 50px 0;
+}
+#separator .highlight {
+    border-bottom: 3px solid #ED5A64;
+    font-weight: 600;
+    font-size: 16px;
 }
 .col-sm-2 p {
     float: left;
@@ -1221,6 +1233,40 @@ cursor: pointer;
 background: #DB4F58;
 
 }
+.sp-effect1:hover{
+     transition-duration: 0.5s;
+    padding-top: 50px;   
+}
+sp-effect2:hover{
+      transition-duration: 0.5s;
+}
+.sp-effect1 > h3:hover {
+    transition-duration: 0.5s;
+    color: #2C3E50;
+}
 
+.col-sm-2 i{
+    color: #ED5A64;
+    font-size:20px;
+    margin-right:10px;
+}
+marker{
+color: #1ABC9C;
 
+}
+.brands .brands-inline li{
+    list-style: none;
+}
+.navbar-default .navbar-nav > li > a.blog_menu_link{
+    color:#ED5A64;
+}
+#enlinea li{
+    display:inline;
+}
+section #testimonials{
+ display:inline;
+}
+.form-control{
+    width:400px;
+}
    
